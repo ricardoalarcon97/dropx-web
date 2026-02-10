@@ -3,47 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Support | Verz</title>
+    <title>Support & FAQ - dropX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .faq-content {
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #a1a1a6;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 40px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        /* Estilo de Acordeón para FAQs */
+        details {
+            margin-bottom: 16px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 16px;
+        }
+        summary {
+            font-weight: 600;
+            color: #ffffff;
+            cursor: pointer;
+            list-style: none;
+            font-size: 18px;
+        }
+        summary::-webkit-details-marker {
+            display: none;
+        }
+        details[open] summary {
+            margin-bottom: 10px;
+            color: #ffffff; 
+        }
+        .answer {
+            color: #a1a1a6;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+    </style>
 </head>
 <body>
-    <nav>
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo">Verz</a>
-            <div class="nav-links"><a href="index.html">Home</a></div>
-        </div>
-    </nav>
-
     <div class="main-container">
-        <h1>Support</h1>
-        <p class="subtitle">How can we help you?</p>
-
-        <div class="text-section" style="text-align: center;">
-            <div style="background: #111; padding: 30px; border-radius: 20px; border: 1px solid #222; margin-bottom: 20px;">
-                <h3 style="color: #fff; margin-top: 0;">Contact Us</h3>
-                <p>If you have any questions or feedback, please email us at:</p>
-                <a href="mailto:support@verz.app" style="color: var(--accent); font-size: 20px; text-decoration: none;">support@verz.app</a>
-            </div>
-
-            <h2 style="margin-top: 60px;">Frequently Asked Questions</h2>
+        <div class="faq-content">
+            <a href="index.html" class="back-link">← Back to Home</a>
             
-            <div style="text-align: left; margin-top: 30px;">
-                <h3 style="color: #fff; font-size: 18px;">How do I delete my data?</h3>
-                <p>You can delete your data directly from the Settings menu in the app.</p>
-                
-                <h3 style="color: #fff; font-size: 18px; margin-top: 30px;">Is the app free?</h3>
-                <p>Yes, the core experience is completely free.</p>
-            </div>
-        </div>
-    </div>
+            <h1>Frequently Asked Questions</h1>
+            <p style="margin-bottom: 40px;">Find answers to common questions about dropX features and subscriptions.</p>
 
-    <footer>
-        <div class="footer-links">
-            <a href="privacy.html">Privacy Policy</a>
-            <a href="terms.html">Terms & Conditions</a>
-            <a href="support.html" style="color: #fff;">Support</a>
+            <details>
+                <summary>1. Do I need an account to use dropX?</summary>
+                <div class="answer">
+                    No. You can use dropX as a Guest. However, if you don't create an account, your data (followed artists, likes) is stored only on your device. If you delete the app or lose your phone, you will lose this data. Creating an account allows you to sync your data securely.
+                </div>
+            </details>
+
+            <details>
+                <summary>2. What is the difference between Basic and Pro?</summary>
+                <div class="answer">
+                    <strong>dropX Basic</strong> is free but includes ads and has limitations on regional feeds and analytics. <strong>dropX Pro</strong> removes all ads, unlocks the Like Graph analytics, allows unlimited regional filtering, and gives you access to exclusive badges and app icons.
+                </div>
+            </details>
+
+            <details>
+                <summary>3. Can I subscribe without creating an account?</summary>
+                <div class="answer">
+                    Yes. Subscriptions are linked to your Apple ID, not your dropX account. You can upgrade to Pro instantly without ever registering with an email.
+                </div>
+            </details>
+
+            <details>
+                <summary>4. Why can't I see the "Like Graph"?</summary>
+                <div class="answer">
+                    The Like Graph is a visual analytic tool available only to Pro subscribers. It allows you to see the history and trends of your music discovery over time.
+                </div>
+            </details>
+
+            <details>
+                <summary>5. How does the Regional Feed work?</summary>
+                <div class="answer">
+                    The Regional Feed filters new music based on what's trending in a selected country or region. Access to multiple regions or specific niche regions may be restricted to the Pro tier.
+                </div>
+            </details>
+
+            <details>
+                <summary>6. How do I follow artists or genres?</summary>
+                <div class="answer">
+                    Simply tap the "Follow" button on any artist or genre profile. Your main feed will then prioritize new releases from these selections. Note that free users may have a limit on the number of active follows.
+                </div>
+            </details>
+
+            <details>
+                <summary>7. I bought Pro but still see ads. What do I do?</summary>
+                <div class="answer">
+                    Go to the app settings and tap <strong>"Restore Purchases"</strong>. This will sync your active Apple ID subscription with the app and remove the ads immediately.
+                </div>
+            </details>
+
+            <details>
+                <summary>8. How do I cancel my subscription?</summary>
+                <div class="answer">
+                    Since Apple handles all payments, you must cancel via your iOS settings. Go to iPhone Settings > Your Name > Subscriptions > dropX > Cancel Subscription.
+                </div>
+            </details>
+
+            <details>
+                <summary>9. What are Discovery Badges?</summary>
+                <div class="answer">
+                    Discovery Badges are upcoming rewards for users who are "early listeners" to songs that later become hits. This feature will be launching soon, primarily for Pro users.
+                </div>
+            </details>
+
+            <details>
+                <summary>10. Can I listen to full songs on dropX?</summary>
+                <div class="answer">
+                    dropX is a discovery tool. We provide high-quality previews. To listen to the full track, you can tap to open the song directly in Apple Music or your preferred streaming service.
+                </div>
+            </details>
+
         </div>
-        <p class="copyright">© 2026 Verz.</p>
-    </footer>
+
+        <footer>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms & Conditions</a>
+                <a href="support.html">Support</a>
+            </div>
+            <p class="copyright">© 2026 dropX. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
